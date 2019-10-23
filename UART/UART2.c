@@ -3,13 +3,13 @@
 #include "UART2.h"
 #include "../HardwareProfile.h"
 
-//-------------- ConfiguraÁ„o dos perifericos -------------------
+//-------------- Register configuration -------------------
 #if defined(U2_INV)
 	#define	U_MODE		0x8018	// Enable UART, BREGH=1, 8n1
-	#define	U_STA		0x4400	// Ativa transmiss„o. limpa flags
+	#define	U_STA		0x4400	// Ativa transmiss√£o. limpa flags
 #else
 	#define	U_MODE		0x8008	// Enable UART, BREGH=1, 8n1
-	#define	U_STA		0x0400	// Ativa transmiss„o. limpa flags
+	#define	U_STA		0x0400	// Ativa transmiss√£o. limpa flags
 #endif
 
 
