@@ -6,10 +6,10 @@
 //-------------- Register configuration -------------------
 #if defined(U2_INV)
 	#define	U_MODE		0x8018	// Enable UART, BREGH=1, 8n1
-	#define	U_STA		0x4400	// Ativa transmissão. limpa flags
+	#define	U_STA		0x4400	// Active transmission/ Clean flags
 #else
 	#define	U_MODE		0x8008	// Enable UART, BREGH=1, 8n1
-	#define	U_STA		0x0400	// Ativa transmissão. limpa flags
+	#define	U_STA		0x0400	// Active transmission/clean flags
 #endif
 
 
