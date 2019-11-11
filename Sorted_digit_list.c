@@ -150,5 +150,7 @@ struct digit * sortedCopy(struct digit * start) {
         sortedStart = insertIntoSorted(sortedStart, newDigit);
         ptr = ptr->next;
     }
+    
     return(sortedStart);
+    
 }
