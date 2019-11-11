@@ -1,5 +1,7 @@
 # C
 This set of files are part of the C Advance Data Type structures Online course that I am currently taking.
+SDE : Visual Studio 2019
+
 
 Course overview
 
